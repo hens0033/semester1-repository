@@ -95,16 +95,31 @@
             <form action="index.html" method="POST">
                 <div>
                     <label for="fullname">Enter Your Name:</label>
-                    <input type="text" name="fullname" id="fullname" placeholder="Your Full Name Here" required>
+                    <input type="text" name="fullname" id="fullname" placeholder="Your Full Name" required>
                 </div>
                 <div>
                     <label for="email">Enter Your Email:</label>
                     <input type="email" name="email" id="email" placeholder="Your Email" required>
                 </div>
+                <div>
+                    <label for="row">Select Row</label>
+                    <select name="row" id="row">
+                        <option value="front">Front</option>
+                        <option value="center" selected>Center</option>
+                        <option value="back">Back</option>
+                    </select>
+                </div>
                 <button type="submit">Submit</button>
             </form>
-        </section>
 
+            <form action="index.html" method="POST">
+                <div>
+                    <label for="comment">Add A Comment:</label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+                <button type="submit">Comment</button>
+            </form>
+        </section>
     </main>
 </body>
 
