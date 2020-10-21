@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practice - Hello World</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="hello_world.html">Hello World</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <h1>Hello World</h1>
+        </header>
+        <section>
+            <Table>
+                <caption>Times</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday - Thursday</td>
+                        <td>3:00 PM - 8:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>3:00 PM - 12:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>12:00 PM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>12:00 PM - 12:00 AM</td>
+                    </tr>
+                </tbody>
+            </Table>
+        </section>
+
+        <section>
+            <table>
+                <caption>Program Grades</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th colspan="3">Grades</th>
+                        <th rowspan="2">Average</th>
+                    </tr>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Digital Graphics</th>
+                        <th>Web Design</th>
+                        <th>Photography</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>74 &percnt;</td>
+                        <td>79 &percnt;</td>
+                        <td>85 &percnt;</td>
+                        <td>79.33 &percnt;</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>Doe</td>
+                        <td>80 &percnt;</td>
+                        <td>71 &percnt;</td>
+                        <td>91 &percnt;</td>
+                        <td>80.66 &percnt;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <form action="index.html" method="POST">
+                <div>
+                    <label for="fullname">Enter Your Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Your Full Name" required>
+                </div>
+                <div>
+                    <label for="email">Enter Your Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div>
+                    <label for="row">Select Row</label>
+                    <select name="row" id="row">
+                        <option value="front">Front</option>
+                        <option value="center" selected>Center</option>
+                        <option value="back">Back</option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+
+            <form action="index.html" method="POST" class="btt">
+                <div>
+                    <label for="comment">Add A Comment:</label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+                <button type="submit">Comment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Copyright &copy; Allie Henseler, 2020
+    </footer>
+</body>
+
+</html>

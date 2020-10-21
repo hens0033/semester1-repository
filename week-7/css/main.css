@@ -1,0 +1,163 @@
+/* html{
+    box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  } */
+
+
+
+
+/* changed font and size */
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+/* html { 
+    margin: -8px auto;
+    width: 80%;
+    height: 0;
+} */
+
+/* changed color of headings */
+h1 {
+    color: darkblue;
+    font-size: 3rem;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 2rem;
+}
+
+/* added a border to tables */
+table {
+    border-collapse: collapse;
+    border: darkblue;
+    border-style: solid;
+    border-width: 5px;
+    background-image: url(../images/double-bubble.webp);
+}
+
+#pika {
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
+
+/* lists under the navigation tag */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1em;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+    background: tomato;
+    padding: 0em 1em;
+}
+
+nav a:hover,    
+nav a:focus {
+    color: lightcyan;
+}
+
+nav a:active {
+    color: lightsteelblue;
+}
+
+nav {
+    background-color: darkblue;
+    display: flex;
+}
+
+section ul li:first-child {
+    font-weight: bold;
+}
+
+section dl dt,
+dt:last-child {
+    color: darkblue;
+    font-weight: bold;
+}
+
+section ul li:nth-child(3) {
+    font-style: italic;
+}
+
+tbody td,
+th:nth-child(n) {
+    border: 2px solid darkblue;
+}
+
+article>p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+article {
+    border: 5px solid darkblue;
+    padding: 0.5em;
+    height: 50%;
+}
+
+.btt {
+    padding-bottom: 1em;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+
+article,
+aside {
+    background-color: violet;
+    border: 1px solid black;
+    padding: 1.5em;
+    width: 70%;
+    box-sizing: border-box;
+    float: left;
+}
+
+aside {
+    width: 30%;
+}
+
+section {
+    clear: both;
+}
+
+main{
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#pikachu h2{
+    position: absolute;
+    top: 20%;
+    left: 3em;
+}
+/* padding can be one number=all sides ie padding: 1em
+two numbers=top/bottom and left/right ie padding: 0.5em 1em
+four numbers=individual side ie padding: 0.5em 0.87em 1em 25em */
