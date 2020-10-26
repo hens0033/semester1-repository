@@ -1,0 +1,111 @@
+html {
+    background-color: #aad4cf;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #d3eeea;
+    width: 988px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#header {
+    margin: -1em;
+    position: relative;
+}
+
+#header h1 {
+    position: absolute;
+    bottom: 0.5em;
+    left: 5em;
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+}
+
+nav {
+    font-size: 24px;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    /* margin: 0 4.5em; */
+    color: black;
+    padding: 0 4.5em;
+}
+
+nav a:hover,    
+nav a:focus {
+    color: #82a39f;
+}
+
+nav a:active {
+    color: #aad4cf;
+}
+
+div li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main h2 {
+    clear: both;
+    font-size: 2rem;
+}
+
+.sideborder {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+main article img {
+    float: left;
+    padding-right: 10px;
+    height: 15em;
+}
+
+aside {
+    clear: both;
+}
+
+aside ul {
+    line-height: 1.1rem;
+}
+
+aside form {
+    border: 1px solid;
+    padding: 16px;
+}
+
+input,
+textarea {
+    width: 99%;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 6rem;
+}
+
+.radio input{
+    width: 1rem;
+}
+
+aside form button {
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 1em;
+    background-color: #d3eeea;
+}
+
+footer {
+    padding-top: 16px;
+    text-align: right;
+}
