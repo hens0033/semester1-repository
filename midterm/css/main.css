@@ -1,7 +1,9 @@
+/* Background colour for the whole page */
 html {
     background-color: #aad4cf;
 }
 
+/* layed out the body and set the font family/size */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -11,11 +13,13 @@ body {
     padding: 1em;
 }
 
+/* positioned the top image */
 #header {
     margin: -1em;
     position: relative;
 }
 
+/* postition the text on top of image and changed size */
 #header h1 {
     position: absolute;
     bottom: 0.5em;
@@ -25,6 +29,7 @@ body {
     font-weight: normal;
 }
 
+/* the next 5 selectors are just for different parts of the nav */
 nav {
     font-size: 24px;
     display: flex;
@@ -55,35 +60,41 @@ div li {
     font-weight: bold;
 }
 
+/* changed all h2 sizes */
 main h2 {
-    clear: both;
     font-size: 2rem;
 }
 
+/* added a border to the center nav list */
 .sideborder {
     border-left: 1px solid;
     border-right: 1px solid;
 }
 
+/* floated the small image so the text will wrap around, and changed size */
 main article img {
     float: left;
     padding-right: 10px;
     height: 15em;
 }
 
+/* cleared the above float */
 aside {
     clear: both;
 }
 
+/* made the spacing in between each line smaller */
 aside ul {
     line-height: 1.1rem;
 }
 
+/* added a border around the whole form */
 aside form {
     border: 1px solid;
     padding: 16px;
 }
 
+/* next 3 change the size of each writable area */
 input,
 textarea {
     width: 99%;
@@ -98,6 +109,7 @@ textarea {
     width: 1rem;
 }
 
+/* change the colour and border of the button */
 aside form button {
     border: 1px solid;
     padding: 5px;
@@ -105,6 +117,7 @@ aside form button {
     background-color: #d3eeea;
 }
 
+/* put the footer to the right side */
 footer {
     padding-top: 16px;
     text-align: right;
